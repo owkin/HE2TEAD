@@ -1,0 +1,20 @@
+def:
+  model_params:
+      in_features: 2048
+      out_features: 1
+      n_top: 25
+      n_bottom: 25
+  training_params:
+      max_epochs: 10
+      lr: 1.0e-3
+
+def_5channels:
+  model_params:
+      in_features: 2048
+      out_features: 1
+      n_top: 25
+      n_bottom: 25
+      n_channels: 5
+  training_params:
+      max_epochs: 10
+      lr: 1.0e-3
