@@ -21,7 +21,8 @@ class Chowder(torch.nn.Module):
     ----------
     in_features: int
     out_features: int
-        controls the number of scores and, by extension, the number of out_features
+    n_channels: int
+        controls the number of scores
     n_top: int
     n_bottom: int
     tiles_mlp_hidden: Optional[List[int]] = None
